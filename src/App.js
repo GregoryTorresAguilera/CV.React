@@ -13,7 +13,7 @@ function App() {
         <Hero hero={hero} />
         <div className="divider">
           <span></span>
-          <span>Sobre mi</span>
+          <span>About</span>
           <span></span>
         </div>
         <About hero={hero} />
