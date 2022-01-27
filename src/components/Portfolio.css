@@ -1,0 +1,19 @@
+.Portfolio {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    user-zoom: auto;
+    
+  }
+  .Portfolio__title {
+     margin: 0;
+     margin-bottom: 20px;
+  
+  }
+  
+  img {
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+  }
