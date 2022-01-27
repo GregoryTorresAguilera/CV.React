@@ -19,9 +19,9 @@ const More = ({ languages, habilities, volunteer }) => {
         <span>Skills</span>
         <span></span>
         </div>
-      <div className="habilities card">
+      <div className="habilities-card">
         {habilities.map((txt) => (
-          <p>🔧 {txt}</p>
+          <p>👨‍💻 {txt}</p>
         ))}
       </div>
       <div className="divider">
@@ -33,7 +33,7 @@ const More = ({ languages, habilities, volunteer }) => {
         {volunteer.map((item) => {
           return (
             <div key={JSON.stringify(item)}>
-              <p className="name">🥽{item.name}</p>
+              <p className="name">💡{item.name}</p>
               <p>{item.where}</p>
               <p>{item.description}</p>
             </div>

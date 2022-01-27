@@ -8,13 +8,13 @@ export const CV = {
       gitHub: "https://github.com/GregoryTorresAguilera",
       aboutMe: [
         {
-          info: "Apasionado de las nuevas tecnologías",
+          info: "🧑‍💻Passionate about new technologies ",
         },
         {
-          info: "Actualmente Estudiante de Full Stack-Developer en Upgrade-Hub",
+          info: "🚀Currently Full Stack-Developer Student at Upgrade-Hub",
         },
         {
-            info: "Conocimientos en JavasCrypt, Angular, Node, React, Html, Scss, Ceo, Marketing digital, E-Commerce, RRSS, Blockchain, Internet Of Things",
+            info: "🤝I love working in a team. Achieving goals and learning from my colleagues",
           },
         
       ],
@@ -26,36 +26,36 @@ export const CV = {
         where: "Upgrade Hub-Madrid",
       },
       {
-        name: "Estudiante de Psicología E-Learning ",
+        name: "E-Learning Psychology Student ",
           date: "2016",
           where: "U.N.E.D",
         },
       
       {
-        name: "Docencia Para La Formación Profesional ",
+        name: "Teaching for Vocational Training ",
         date: "2015",
         where: "Junta De Andalucía",
       },
       {
-        name: "Técnico De Prevención De Riesgos Laborales",
+        name: "Health and Safety",
         date: "2014",
         where: "I.E.S Alhamilla-Almería",
       }
     ],
     experience: [
       {
-        name: "Técnico De Prevención De Riesgos Laborales",
+        name: "Health and Safety Technician",
         date: "01/12/2014– 1/12/2015",
         where: "Ibermutuamur",
         description:
-          "Dar formación a trabajadores, Implementar medidas de preventivas en empresas",
+          "Give training to workers, Implement preventive measures in companies",
       },
       {
-        name: "Comercial",
+        name: "Salesman",
         date: "01/01/2015 – 28/02/2019",
-        where: "Bankinter, Dynatol, Suministros Eléctricos, Freelance",
+        where: "Bankinter, Dynatol, Electrical Supplies, Freelance",
         description:
-          "Trabajar de cara al público vendiendo y gestionando equipos con personas por toda España",
+          "Work with the public selling and managing teams with people throughout Spain",
       },
     ],
     languages: {
@@ -64,27 +64,30 @@ export const CV = {
       splevel: "B2",
     },
     habilities: [
-      "Organización del tiempo",
-      "Trabajo en equipo",
-      "Resiliencia",
-      "Superación",
-      "Resolución de conflictos",
-      "Alcancar objetivos",
-      "Comunicación",
+      "JavaScrypt",
+      "Node",
+      "Angular,",
+      "React",
+      "Html",
+      "Scss",
+      "Php",
+      "MongoDb,",
+      "Seo",
+      
       
     ],
     volunteer: [
       {
         name: "Freelance",
-        where: "España",
+        where: "Spain",
         description:
-          "Diseño de páginas web, posicionamiento en google para Pymes",
+          "Design of web pages, Seo, Social Networks",
       },
       {
         name: "Platzi",
         where: "Platzi.com",
         description:
-          "Estudiante en platzi formación continua",
+          "Student at platzi continuing education",
       },
     ],
   };

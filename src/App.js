@@ -11,7 +11,6 @@ function App() {
     <div className="App">
       <div>
         <Hero hero={hero} />
-        <Portfolio portfolio={portfolio} />
         <div className="divider">
           <span></span>
           <span>Sobre mi</span>
@@ -24,16 +23,16 @@ function App() {
           <span></span>
           <span>
             <button
-              className="custom-btn btn-4"
+              className="custom-btn"
               onClick={() => setShowEducation(true)}
             >
-              Educación
+              Education
             </button>
             <button
-              className="custom-btn btn-4"
+              className="custom-btn"
               onClick={() => setShowEducation(false)}
             >
-              Experiencia
+              Experience
             </button>
           </span>
           <span></span>
@@ -46,6 +45,7 @@ function App() {
           <Experience experience={experience} />
         )}
       </div>
+      <Portfolio portfolio={portfolio} />
       <More
         languages={languages}
         habilities={habilities}
